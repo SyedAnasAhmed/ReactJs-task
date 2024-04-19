@@ -1,0 +1,34 @@
+.cardmaindiv{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 1169px;
+    height: 427px;
+    margin: auto;
+    background-color: #380E68;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cardtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Georama", sans-serif;
+    font-size: 22;
+    font-weight:300;
+    width: 537px;
+    height: 285px;
+    color: white;
+    /* margin: auto; */
+}
+
+
+.cardimgWrapper {
+    position: absolute;
+    top: -15%; /* Adjust the top position as needed */
+    right: -5%; /* Adjust the right position as needed */
+    background-color: #380E68; /* Same as the background color of .cardmaindiv */
+    border-radius: 20px; /* Same as the border-radius of .cardmaindiv */
+    overflow: hidden; /* Hide overflowing parts of the image */
+  }

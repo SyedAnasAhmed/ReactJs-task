@@ -1,51 +1,11 @@
-// import { Route, Router, Routes, } from 'react-router-dom'
-// import './App.css'
-// import Schedule from './pages/ScheduleOfEvents'
-// import Home from './pages/Home'
-// import Tickets from './pages/Tickets'
-// import Contact from './pages/ContactUs'
-// import Cast from './pages/CastAttendees'
-
-// function App() {
-
-//   return (
-//     <>
-//       <Router>
-//         {/* <Routes> */}
-//           <Route path="/" ><Home /></Route>
-//         {/* </Routes> */}
-//         {/* <Routes> */}
-//           <Route path="/Schedule" ><Schedule /></Route>
-//         {/* </Routes> */}
-//         {/* <Routes> */}
-//           <Route path="/Tickets" ><Tickets /></Route>
-//         {/* </Routes> */}
-//         {/* <Routes> */}
-//           <Route path="/Contact" ><Contact /></Route>
-//         {/* </Routes> */}
-//         {/* <Routes> */}
-//           <Route path="/Cast" ><Cast /></Route>
-//         {/* </Routes> */}
-//       </Router>
-
-
-
-//     </>
-//   )
-// }
-
-// export default App
-
-
 import React from 'react';
-// import { BrowserRouter as  Route, Routes, } from 'react-router-dom';
 import Schedule from './pages/ScheduleOfEvents'
 import Home from './pages/Home'
 import Tickets from './pages/Tickets'
 import Contact from './pages/ContactUs'
 import Cast from './pages/CastAttendees'
 import { Route, Routes } from 'react-router-dom';
-import MyNavbar from './Components/Navbar/Navbar';
+import HomeCard from './Components/ImgTxtCard';
 
 function App() {
   return (
@@ -58,7 +18,7 @@ function App() {
         <Route path="/Cast" element={<Cast/>} />
       </Routes>
 
-        {/* <MyNavbar/>  */}
+      {/* <HomeCard/> */}
 
 
 
