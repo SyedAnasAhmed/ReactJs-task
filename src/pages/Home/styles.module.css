@@ -16,8 +16,8 @@
 }
 
 .navbarContainer {
-    position: absolute;
-    top: 81px;
+    position: fixed;
+    top: 21px;
     width: 100%;
     z-index: 1000;
 }
