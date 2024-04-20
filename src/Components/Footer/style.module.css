@@ -11,13 +11,15 @@
 
 
 .sceneryimage,
+.coloroverlayimage,
 .coloroverlayimage{
     position: absolute;
-    object-fit: cover;
+    object-fit:cover;
     width: 1573px;
     height: 100%;
 }
 
+.coloroverlayimage2,
 .coloroverlayimage{
-    mix-blend-mode: multiply;
+    mix-blend-mode:multiply ;
 }

@@ -8,7 +8,8 @@ function Footer() {
                 {/* <div className={`${styles.footerimagesholder}`}> */}
                     <div className={`${styles.footerimages}`}>
                         <img src="/public/Images/footer2.png" className={`${styles.coloroverlayimage}`} alt="" />
-                        <img src="/public/Images/Footerimg.png" className={`${styles.sceneryimage}`} alt="" />
+                        <img src="/public/Images/Footerimg.png"  className={`${styles.sceneryimage}`}  alt="" />
+                        <img src="/public/Images/footer3.png" className={`${styles.coloroverlayimage2}`} alt="" />
                     </div>
                     <div className={`${styles.logo}`}>
 
