@@ -1,0 +1,48 @@
+.disclaimerHolder {
+    width: auto;
+    height: 605px;
+    background-color: #1F1231;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.disclaimerHeading {
+    font-size: 60px;
+    background: rgb(215, 182, 255);
+    background: linear-gradient(103deg, rgba(215, 182, 255, 1) 0%, rgba(255, 113, 165, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+}
+
+.disclaimertextholder {
+    width: 1081px;
+    height: 248px;
+    /* border: 2px solid wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #FFAECC;
+    border-bottom: 2px solid #FFAECC;
+    border-radius: 30px;
+    border-left: #1F1231;
+    border-right: #1F1231;
+    box-shadow: 1px 1px 30px -1px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: 1px 1px 30px -1px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 1px 1px 30px -1px rgba(0, 0, 0, 0.66);
+}
+
+.disclaimertext {
+    width: 824px;
+    height: 103px;
+    font-size: 22px;
+    color: #F42973;
+    text-align: center;
+    /* border: 2px solid white ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

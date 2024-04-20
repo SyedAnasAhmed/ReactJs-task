@@ -6,6 +6,8 @@ import Contact from './pages/ContactUs'
 import Cast from './pages/CastAttendees'
 import { Route, Routes } from 'react-router-dom';
 import HomeCard from './Components/ImgTxtCard';
+import Disclaimer from './Components/Disclaimer';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
 
       {/* <HomeCard/> */}
 
+      <Disclaimer/>
+      <Footer/>
 
 
     </>

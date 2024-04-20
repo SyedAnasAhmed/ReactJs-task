@@ -1,6 +1,6 @@
-.cardmaindiv{
+.cardmaindiv {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 1169px;
     height: 427px;
@@ -10,25 +10,42 @@
     position: relative;
 }
 
-.cardtext{
+.cardtext {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between ;
     font-family: "Georama", sans-serif;
-    font-size: 22;
-    font-weight:300;
+    font-size: 22px ;
+    font-weight: 300;
     width: 537px;
     height: 285px;
     color: white;
-    /* margin: auto; */
+    margin-left:50px ;
 }
 
 
 .cardimgWrapper {
     position: absolute;
-    top: -15%; /* Adjust the top position as needed */
-    right: -5%; /* Adjust the right position as needed */
-    background-color: #380E68; /* Same as the background color of .cardmaindiv */
-    border-radius: 20px; /* Same as the border-radius of .cardmaindiv */
-    overflow: hidden; /* Hide overflowing parts of the image */
-  }
+    top: -15%;
+    /* Adjust the top position as needed */
+    right: -5%;
+    /* Adjust the right position as needed */
+    background-color: #380E68;
+    /* Same as the background color of .cardmaindiv */
+    border-radius: 20px;
+    /* Same as the border-radius of .cardmaindiv */
+    overflow: hidden;
+    /* Hide overflowing parts of the image */
+    z-index: 1;
+}
+
+.cardimgBg {
+    background-color: #EE266F;
+    width: 499px;
+    height: 427px;
+    border-radius: 20px;
+    position: absolute;
+    top:-25%;
+    left: 65%;
+    z-index: 0;
+}

@@ -45,18 +45,22 @@ function Home() {
           Hedlund, Rick Bravo, The Miami Vice Preservation Society & Universal Studios LLC.</p>
       </div>
       <div className={styles.hero3}>
+        <img src={"/public/Images/hero3bg.png"} height={989} alt="" />
         <div>
-          <img src={"/public/Images/hero3bg.png"} height={989} alt="" />
           <h1 className={styles.hero3textoverlay}>1980S SOUTH BEACH</h1>
         </div>
         <div className={styles.cardholder} >
-          <HomeCard />
+          <HomeCard para1="Ocean Drive was a deteriorating stretch of hotels and co-ops used primarily as retirement homes for the elderly. 
+            " para2="Crime was rampant, cocaine cowboys were shooting it out in the streets, and the drug war was raging.
+            " para3="One television show changed everything and made South Beach, Miami Dade County and South Florida the ultimate paradise and travel destination that it is today for the entire world. That show was called…" 
+            src="/public/Images/homecard1.png" />
         </div>
-
-
+        <div className={styles.button}>
+          <button>GET TICKETS NOW</button>
+        </div>
       </div>
     </>
   );
 }
 
-export default Home;
+export default Home

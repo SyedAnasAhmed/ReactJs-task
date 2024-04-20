@@ -1,17 +1,19 @@
 import React from 'react'
 import styles from './styles.module.css';
 
-function HomeCard() {
+function HomeCard(props) {
     return (
         <>
             <div className={`${styles.cardmaindiv}`}>
                 <div className={`${styles.cardtext}`}>
-                    <p>Ocean Drive was a deteriorating stretch of hotels and co-ops used primarily as retirement homes for the elderly. </p>
-                    <p>    Crime was rampant, cocaine cowboys were shooting it out in the streets, and the drug war was raging. </p>
-                    <p>    One television show changed everything and made South Beach, Miami Dade County and South Florida the ultimate paradise and travel destination that it is today for the entire world. That show was called…</p>
+                    <p>{props.para1}</p>
+                    <p>{props.para2}</p>
+                    <p>{props.para3}</p>
                 </div>
                 <div className={`${styles.cardimgWrapper}`}>
-                    <img src={"/public/Images/homecard1.png"} className={`${styles.cardimg}`} width={588} height={443} alt="" />
+                    <img src={props.src} className={`${styles.cardimg}`} width={588} height={443} alt="" />
+                </div>
+                <div className={`${styles.cardimgBg}`}>
                 </div>
             </div>
         </>
