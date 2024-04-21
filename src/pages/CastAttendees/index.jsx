@@ -1,9 +1,14 @@
 import React from 'react'
+import MyNavbar from '../../Components/Navbar/Navbar'
+import Disclaimer from '../../Components/Disclaimer';
+import Footer from '../../Components/Footer';
 
 function Cast() {
   return (
     <>
-      <h2>Cast Attendees</h2>
+      <MyNavbar/>
+      <Disclaimer/>
+      <Footer/>
     </>
   )
 }

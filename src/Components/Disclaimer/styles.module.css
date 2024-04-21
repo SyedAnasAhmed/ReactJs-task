@@ -46,3 +46,20 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+@media (max-width: 768px) {
+    .disclaimerHeading {
+        font-size: 40px; /* Adjusted font size */
+    }
+
+    .disclaimertextholder {
+        width: 90%; /* Adjusted width */
+        max-width: 100%; /* Added max-width */
+    }
+
+    .disclaimertext {
+        font-size: 15px; /* Adjusted font size */
+    }
+}

@@ -1,5 +1,5 @@
- .customnav{
-    /* border: 2px solid red; */
+ /* .customnav{
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,6 @@
     border-radius: 95px;
     font-family: "Georama", sans-serif;
     margin: auto;
-    /* background-color: #806689; */
     background-color: rgba(128, 102, 137, 0.7); 
     backdrop-filter: blur(5px); 
     position: sticky; 
@@ -33,4 +32,72 @@
 
 .navmargin{
     margin-top: 81px ;
+} */
+
+
+
+
+/* Navbar.module.css */
+
+.customnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1064px;
+    height: 81px;
+    border-radius: 95px;
+    font-family: "Georama", sans-serif;
+    margin: auto;
+    background-color: rgba(128, 102, 137, 0.7); 
+    backdrop-filter: blur(5px); 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000000; 
+    font-size: 23px;
+    transition: all 0.3s ease-in-out;
 }
+
+.mynavlinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 500;
+    color: #FBCFFF;
+    flex-grow: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.homepagelink {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.collapseButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.collapsed .mynavlinks {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* @media (min-width: 1025px) {
+    .collapseButton {
+        display: none;
+    }
+} */
+
+/* @media (max-width: 1025px){
+    .customnav{
+        width: 100%;
+    }
+} */
