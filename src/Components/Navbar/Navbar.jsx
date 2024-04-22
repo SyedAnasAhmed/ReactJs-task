@@ -50,8 +50,8 @@ function MyNavbar() {
 
     return (
         <>
-            <div className={`${styles.customnav} ${collapsed ? styles.collapsed : ''}`}>
-                <ul className={`${styles.mynavlinks} ${collapsed ? styles.hidden : ''}`}>
+            <div className={`${styles.customnav} `}>
+                <ul className={`${styles.mynavlinks} `}>
                     <li>
                         <img src="/public/Images/Logo.png" width={79} height={46} alt="" />
                     </li>
@@ -71,9 +71,9 @@ function MyNavbar() {
                         <NavLink to="/Contact" >CONTACT US</NavLink>
                     </li>
                 </ul>
-                <button className={`${styles.collapseButton}`} onClick={toggleCollapse}>
+                {/* <button className={`${styles.collapseButton}`} onClick={toggleCollapse}>
                     {collapsed ? <HiBars3 />  : 'Collapse'}
-                </button>
+                </button> */}
             </div>
         </>
     )

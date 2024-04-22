@@ -65,12 +65,6 @@
     text-align: center;
 }
 
-/* .hero2 img {
-    border: 8px solid transparent; 
-    border-image: linear-gradient(360deg, rgba(31, 18, 49, 1) 0%, rgba(31, 18, 49, 1) 56%, rgba(238, 38, 111, 1) 100%);
-    border-image-slice: 1; 
-} */
-
 .hero3 {
     margin-top: -150px;
     position: relative;
@@ -78,7 +72,6 @@
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-
 }
 
 .hero3textoverlay {
@@ -113,7 +106,75 @@
     position: absolute;
     bottom: 5%;
     font-family: "Georama", sans-serif;
+    font-size: 19;
+    background-color: rgba(255, 174, 204, 0.5); 
+    
+}
+
+
+.hero4{
+    width: 1583px;
+    height: 1353px;
+    background: rgb(31, 18, 49);
+    background: linear-gradient(0deg,rgb(0, 0, 0)0%, rgba(31, 18, 49, 1) 19%, rgba(31, 18, 49, 1) 80%, rgb(238, 38, 111) 100%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.hero4head h1{
+    font-size: 60px;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    background: rgb(215, 182, 255);
+    background: linear-gradient(103deg, rgba(215, 182, 255, 1) 0%, rgba(255, 113, 165, 1) 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.hero4head p{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Georama", sans-serif;
+    color: #FFFF;
+    font-weight: 200;   
+}
+
+.cardsection{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.txtbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.txtbtn p {
+    color: #FFFF;
+    font-size: 20px;
+    font-weight:400;
+    font-family: "Georama", sans-serif;
+}
+
+.button2{
+    width: 165px;
+    height: 37px;
+    border-radius: 20px;
+    background-color:#FFAECC ;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    /* position: absolute;
+    bottom: 5%; */
+    font-family: "Georama", sans-serif;
     /* background:transparent; */
     font-size: 19;
     background-color: rgba(255, 174, 204, 0.5); 
+    margin-top: 20px;
 }

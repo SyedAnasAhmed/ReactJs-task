@@ -72,32 +72,3 @@
     color: #FFFFFF;
 }
 
-.collapseButton {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    margin-right: 10px;
-    transition: all 0.3s ease-in-out;
-}
-
-.collapsed .mynavlinks {
-    display: none;
-}
-
-.hidden {
-    display: none;
-}
-
-/* @media (min-width: 1025px) {
-    .collapseButton {
-        display: none;
-    }
-} */
-
-/* @media (max-width: 1025px){
-    .customnav{
-        width: 100%;
-    }
-} */
