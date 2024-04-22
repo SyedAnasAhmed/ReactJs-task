@@ -50,7 +50,7 @@ function Home() {
       
       
       <div className={styles.hero3}>
-        <img src={"/public/Images/hero3bg.png"} height={989} alt="" />
+        <img src={"/public/Images/hero3bg.png"} className={styles.herobgimg} height={989} alt="" />
         <div>
           <h1 className={styles.hero3textoverlay}>1980S SOUTH BEACH</h1>
         </div>

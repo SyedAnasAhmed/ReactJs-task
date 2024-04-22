@@ -1,4 +1,4 @@
-.cardmaindiv {
+/* .cardmaindiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,15 +27,10 @@
 .cardimgWrapper {
     position: absolute;
     top: -15%;
-    /* Adjust the top position as needed */
     right: -5%;
-    /* Adjust the right position as needed */
     background-color: #380E68;
-    /* Same as the background color of .cardmaindiv */
     border-radius: 20px;
-    /* Same as the border-radius of .cardmaindiv */
     overflow: hidden;
-    /* Hide overflowing parts of the image */
     z-index: 1;
 }
 
@@ -48,4 +43,90 @@
     top:-25%;
     left: 65%;
     z-index: 0;
+} */
+
+.cardmaindiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1169px;
+    height: 427px;
+    margin: auto;
+    background-color: #380E68;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cardtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Georama", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    width: 537px;
+    height: 285px;
+    color: white;
+    margin-left: 50px;
+}
+
+
+.cardimgWrapper {
+    position: absolute;
+    top: -15%;
+    right: -5%;
+    background-color: #380E68;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.cardimgBg {
+    background-color: #EE266F;
+    width: 499px;
+    height: 427px;
+    border-radius: 20px;
+    position: absolute;
+    top: -25%;
+    left: 65%;
+    z-index: 0;
+}
+
+
+
+@media (max-width: 1024px) {
+    .cardmaindiv {
+        width: 90%;
+        height: auto;
+        /* Adjust height to auto for flexibility */
+        flex-direction: column;
+        /* Reverse flex direction for smaller screens */
+        justify-content: space-between;
+        /* Align content to the top */
+    }
+
+    .cardtext {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    .cardimgWrapper {
+        position: relative;
+        top: auto;
+        right: auto;
+
+    }
+
+    .cardimg {
+        width: 90%;
+        margin: auto;
+    }
+
+    .cardimgBg {
+       display: none    ;
+    }
 }
