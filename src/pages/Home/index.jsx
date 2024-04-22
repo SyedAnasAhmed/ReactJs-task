@@ -36,9 +36,9 @@ function Home() {
         <div className={styles.textOverlay}>MIAMI VICE 40th ANNIVERSARY</div>
         <div className={styles.textOverlay2}>REUNION OPENING NIGHT</div>
 
-        <div className={styles.navbarContainer}>
+        {/* <div className={styles.navbarContainer}>
           <MyNavbar />
-        </div>
+        </div> */}
       </div>
       
       
@@ -84,6 +84,39 @@ function Home() {
 
         </div>
       </div>
+
+      {/* <div className={styles.hero5}>
+          <img src="/public/Images/hero5bg.png" alt="" height={2221} />
+
+          <div className={styles.hero5head}>
+            <h1>MIAMI VICE</h1>
+            <p>If Miami hasn’t got it they havent invented it yet!</p>
+          </div>
+
+          <div className={styles.cardsdiv}>
+              <HomeCard src={"/public/Images/hero5card1.png"} className={styles.card1} para1={"SEPTEMBER 12-15 2024: Travel back in time 40 years ago to the big 80s the greatest era in American History and literally relive the most influential television show in history! "}
+                  para2={"Spearheaded by the world’s biggest Miami Vice fan: Derek Hedlund & original Miami Vice crew member Rick Bravo who was crucial to the success of the show from the very beginning they have come together to put on a REAL REUNION and return the original cast and guest stars whose careers began on Miami Vice back to South Beach for one final huge sendoff into the sunset the show deserves. "} />
+            
+          </div>
+          
+          <div className={styles.btndiv}>
+              <button>GET TICKETS NOW</button>
+          </div>
+      </div> */}
+
+
+      <div className={styles.hero6}>  
+        <img src="/public/Images/hero6overlayimg.png" className={styles.hero6mainimg} alt="" />
+        <div className={styles.hero6heading}>
+          <h1>PROCEEDS FROM THE MIAMI VICE REUNION WILL BENEFIT THE POLICE OFFICER ASSISTANT TRUST (POAT)</h1>
+        </div>
+
+        <div className={styles.hero6anniversary}>
+          <img src="/public/Images/anniversarylogo.png" alt="" />
+          <p>The 40th Anniversary Reunion is a nonprofit event to benefit a great cause: the Police Officer Assistance Trust for the families of Fallen Miami Dade Police Officers. In the past the show & cast often did many charitable and promotional events for Miami Police Officers and the city and we'd like to keep that beautiful theme going</p>
+        </div>
+      </div>
+
     </>
   );
 }
