@@ -18,19 +18,25 @@
 .anotherImage {
     position: absolute;
     top: 55%;
-    left: 20%;
-
+    left: 23%;
 }
 
 
 .textOverlay {
     position: absolute;
-    top: 60%;
-    left: 34%;
+    top: 58%;
+    left: 25%;
     color: white;
     font-size: 38px;
     font-family: "Georama", sans-serif;
     font-weight: 500;
+    width: 52%;
+    height: 120px;
+    -webkit-box-shadow: 0px 7px 63px 26px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 7px 63px 26px rgba(0, 0, 0, 0.46);
+    box-shadow: 0px 7px 63px 26px rgba(0, 0, 0, 0.46);
+    text-align: center;
+
 }
 
 .textOverlay2 {
@@ -74,9 +80,9 @@
     width: 100%;
 }
 
-
-
-
+.herobgimg {
+    width: 100%;
+}
 
 .hero3textoverlay {
     font-size: 60px;
@@ -276,9 +282,58 @@
     font-weight: 200;
 }
 
+.socialmediaacc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    font-family: "Georama", sans-serif;
+    position: absolute;
+    bottom: 15%;
+}
 
+.socialmediaacc h2 {
+    margin-bottom: 12px;
+}
 
+.vectors {
+    display: flex;
+    gap: 10px;
+}
 
+.bottomhead {
+    font-size: 60px;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    background: rgb(215, 182, 255);
+    background: linear-gradient(103deg, rgba(215, 182, 255, 1) 0%, rgba(255, 113, 165, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.lastsec {
+    width: 100%;
+    height: 290px;
+    background-color: rgb(244, 41, 115);
+    background: linear-gradient(180deg, rgba(244, 41, 115, 1) 0%, rgba(65, 20, 111, 1) 100%);
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    position: absolute;
+    top: 25%;
+
+}
 
 
 
@@ -309,6 +364,7 @@
         top: 55%;
         left: 5%;
         line-height: 30px;
+        width: auto;
     }
 
     .textOverlay2 {
@@ -372,11 +428,11 @@
     }
 
     .hero6heading {
-        font-size: 20px;   
-        margin-top: 20px;    
+        font-size: 20px;
+        margin-top: 20px;
     }
 
-    .hero6anniversary{
+    .hero6anniversary {
         flex-direction: column;
         width: 90%;
     }
@@ -391,5 +447,36 @@
         width: 100px;
         bottom: auto;
         top: auto;
+    }
+
+    .socialmediaacc {
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .vectors {
+        gap: 30px;
+        margin-top: 15px;
+    }
+
+    .vectors img {
+        width: 30px;
+    }
+
+    .bottomhead {
+        font-size: 25px;
+    }
+
+    .lastsec {
+        height: 600px;
+    }
+
+    .logos {
+
+        width: 150px;
+        gap: 50px;
+        flex-direction: column;
+        top: 5%;
     }
 }

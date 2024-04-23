@@ -1,47 +1,6 @@
- /* .customnav{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1064px;
-    height: 81px;
-    border-radius: 95px;
-    font-family: "Georama", sans-serif;
-    margin: auto;
-    background-color: rgba(128, 102, 137, 0.7); 
-    backdrop-filter: blur(5px); 
-    position: sticky; 
-    top: 0; 
-    z-index: 1000000; 
-    font-size: 23px;
-} 
-
-.mynavlinks{
-    width: 100%;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    font-weight: 500;
-    color: #FBCFFF;
-}
-
-.homepagelink{
-    font-weight:bold;
-    color: #FFFFFF;
-}
-
-.navmargin{
-    margin-top: 81px ;
-} */
-
-
-
-
-/* Navbar.module.css */
-
 .customnav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 1064px;
     height: 81px;
@@ -72,3 +31,37 @@
     color: #FFFFFF;
 }
 
+
+
+@media (max-width:1024px){
+    .customnav{
+        width: 1000px;
+        font-size: 20px;
+        margin-left: 8px;
+    }
+}
+
+
+@media (max-width:769px){
+    .customnav{
+        width: 750px;
+        font-size: 15px;
+        margin-left: 8px;
+    }
+}
+
+@media (max-width:426px){
+    .customnav{
+        width: 100%;
+        position: fixed;
+        border-radius: 0px;
+        margin: 0px;
+        background-color: #2f124a;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mynavlinks li{
+        display: none;
+    }
+
+}

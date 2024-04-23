@@ -1,54 +1,44 @@
-// import React from 'react'
-// import styles from "./styles.module.css";
-// import MyNavbar from '../../Components/Navbar/Navbar';
-
-
-
-// function Home() {
-//   return (
-//     <>
-//       <div className={`${styles.custom}`}>
-//         <div className={`${styles.navmargin}`   }>
-//           <MyNavbar />
-//         </div>
-//       </div>
-
-//     </>
-//   )
-// }
-
-// export default Home
-
-
 import React from 'react';
 import styles from './styles.module.css';
-import MyNavbar from '../../Components/Navbar/Navbar';
 import HomeCard from '../../Components/ImgTxtCard';
 import AttendeesCard from '../../Components/AttendeesCard';
-// import backgroundImage from './backgroundImage.jpg'; // Import your background image
+import Disclaimer from '../../Components/Disclaimer';
+import Footer from '../../Components/Footer';
+import MyNavbar from '../../Components/Navbar/Navbar';
+
+
 
 function Home() {
   return (
     <>
+
+
       <div className={styles.backgroundContainer}>
         <img src={"/public/Images/hero1.png"} alt="Background" className={styles.backgroundImage} />
         <img src={"/public/Images/hero1DaysCounter.png"} alt="" className={styles.anotherImage} />
-        <div className={styles.textOverlay}>MIAMI VICE 40th ANNIVERSARY</div>
-        <div className={styles.textOverlay2}>REUNION OPENING NIGHT</div>
 
-        {/* <div className={styles.navbarContainer}>
+        <div  className={styles.textholder}>
+          <div className={styles.textOverlay}>MIAMI VICE 40th ANNIVERSARY</div>
+          <div className={styles.textOverlay2}>REUNION OPENING NIGHT</div>
+        </div>
+
+        <div className={styles.timer}>
+        
+        </div>
+
+        <div className={styles.navbarContainer}>
           <MyNavbar />
-        </div> */}
+        </div>
       </div>
-      
-      
+
+
       <div className={styles.hero2}>
         <img src={"/public/Images/Hero2img.png"} width={1180} height={573} alt="" />
         <p>Promotional Footage for the Miami Vice 40th Anniversary Reunion is Courtesy of Derek <br />
           Hedlund, Rick Bravo, The Miami Vice Preservation Society & Universal Studios LLC.</p>
       </div>
-      
-      
+
+
       <div className={styles.hero3}>
         <img src={"/public/Images/hero3bg.png"} className={styles.herobgimg} height={989} alt="" />
         <div>
@@ -65,7 +55,7 @@ function Home() {
         </div>
       </div>
 
-     
+
       <div className={styles.hero4}>
         <div className={styles.hero4head}>
           <h1>NEWEST CAST ATTENDEES</h1>
@@ -73,14 +63,14 @@ function Home() {
         </div>
 
         <div className={styles.cardsection}>
-            <AttendeesCard  img="/public/Images/attendee1.png" name="SAUNDRA  SANTIAGO" title="DET. GINA CALABRESE" />
-            <AttendeesCard  img="/public/Images/attendee2.png" name="MICHAEL  MADSEN" title="SALY ALVARADO" />
-            <AttendeesCard  img="/public/Images/attendee3.png" name="BRUCE MCGILL" title="DET. HANK WELDON RET." />
+          <AttendeesCard img="/public/Images/attendee1.png" name="SAUNDRA  SANTIAGO" title="DET. GINA CALABRESE" />
+          <AttendeesCard img="/public/Images/attendee2.png" name="MICHAEL  MADSEN" title="SALY ALVARADO" />
+          <AttendeesCard img="/public/Images/attendee3.png" name="BRUCE MCGILL" title="DET. HANK WELDON RET." />
         </div>
 
         <div className={styles.txtbtn}>
-            <p>To see all Confirmed Attending Miami Vice Alumni</p>
-            <button className={styles.button2}>View More</button>
+          <p>To see all Confirmed Attending Miami Vice Alumni</p>
+          <button className={styles.button2}>View More</button>
 
         </div>
       </div>
@@ -105,7 +95,7 @@ function Home() {
       </div> */}
 
 
-      <div className={styles.hero6}>  
+      <div className={styles.hero6}>
         <img src="/public/Images/hero6overlayimg.png" className={styles.hero6mainimg} alt="" />
         <div className={styles.hero6heading}>
           <h1>PROCEEDS FROM THE MIAMI VICE REUNION WILL BENEFIT THE POLICE OFFICER ASSISTANT TRUST (POAT)</h1>
@@ -115,7 +105,35 @@ function Home() {
           <img src="/public/Images/anniversarylogo.png" alt="" />
           <p>The 40th Anniversary Reunion is a nonprofit event to benefit a great cause: the Police Officer Assistance Trust for the families of Fallen Miami Dade Police Officers. In the past the show & cast often did many charitable and promotional events for Miami Police Officers and the city and we'd like to keep that beautiful theme going</p>
         </div>
+
+        <div className={styles.socialmediaacc} >
+          <h2>FOLLOW THE OFFICIAL MIAMI VICE REUNION SOCIAL MEDIAS AT</h2>
+          <div className={styles.vectors}>
+            <img src="/public/images/instavector.png" alt="" />
+            <img src="/public/Images/fbvector.png" alt="" />
+            <img src="/public/Images/tiktok.png" alt="" />
+            <img src="/public/Images/twittervector.png" alt="" />
+          </div>
+        </div>
+
+        <div className={styles.bottomhead}>
+          <h1>SPONSORS AND PARTNERS</h1>
+        </div>
       </div>
+
+      <div className={styles.lastsec}>
+        <img src="/public/Images/sponsorsandpartners.png" alt="" />
+
+        <div className={styles.logos} >
+          <img src="/public/Images/logolarge.png" alt="" />
+          <img src="/public/Images/logolarge.png" alt="" />
+          <img src="/public/Images/logolarge.png" alt="" />
+          <img src="/public/Images/logolarge.png" alt="" />
+        </div>
+      </div>
+
+      <Disclaimer />
+      <Footer />
 
     </>
   );
