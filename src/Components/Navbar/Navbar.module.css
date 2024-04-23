@@ -31,6 +31,15 @@
     color: #FFFFFF;
 }
 
+.collapseButton{
+    display: none;
+}
+
+.dropdownContent{
+    display: none;
+}
+
+
 
 
 @media (max-width:1024px){
@@ -50,7 +59,7 @@
     }
 }
 
-@media (max-width:426px){
+@media (max-width:425px){
     .customnav{
         width: 100%;
         position: fixed;
@@ -58,10 +67,26 @@
         margin: 0px;
         background-color: #2f124a;
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-evenly;
     }
     .mynavlinks li{
         display: none;
     }
+    .logoholder{
+        position: absolute;
+        right: 72%;
+    }
 
+    .collapseButton{
+        display: block;
+        width: 50px;
+        height: 70%;
+        background-color: purple;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    
 }
