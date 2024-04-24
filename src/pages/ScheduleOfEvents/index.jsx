@@ -1,6 +1,5 @@
 import React from 'react'
-import MyNavbar from '../../Components/Navbar/Navbar'
-import Disclaimer from '../../Components/Disclaimer';
+import MyNavbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer';
 import styles from './styles.module.css'
 import ScheduleCard from '../../Components/ScheduleCard';
@@ -59,7 +58,7 @@ function Schedule() {
       
       </div>
 
-      <Disclaimer />
+      
 
       <Footer />
 
