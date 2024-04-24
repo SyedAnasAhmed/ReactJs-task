@@ -1,0 +1,104 @@
+.navbarContainer {
+    position: fixed;
+    top: 81px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.bannerimg {
+    width: 100%;
+}
+
+.banner2 {
+    background: rgb(20, 8, 37);
+    background-color: linear-gradient(180deg, rgba(20, 8, 37, 1) 12%, rgba(31, 18, 49, 1) 26%);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    
+}
+
+.banner2head{
+    position: absolute;
+    top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2head h1 {
+    font-size: 60px;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    background: rgb(215, 182, 255);
+    background: linear-gradient(103deg, rgba(215, 182, 255, 1) 0%, rgba(255, 113, 165, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    width: 60%;
+    text-align: center;
+}
+
+.banner2head p {
+    font-size: 30px;
+    font-family: "Georama", sans-serif;
+    width: 60%;
+    text-align: center;
+    color: #F42973;
+}
+
+
+
+.cardholder{
+    position: absolute;
+    top: 12%;
+    /* padding-top: 30px; */
+}
+
+
+
+@media (max-width:769px){
+    .banner2head h1{
+        font-size: 25px;
+    }
+    .banner2head p{
+        font-size: 18px;
+        width: 90%;
+    }
+    .banner2{
+        height: 3600px;
+    }
+    .cardholder{
+        top: 10%;
+    }
+}
+
+@media (max-width:426px){
+    .bannersec{
+     margin-top: 80px;   
+    }
+}
+
+@media (min-width:767px){
+    .cardholder{
+        top: 5%;
+    }   
+    .banner2{
+        height: 2900px;
+    }
+}
+
+@media (min-width:1024px){
+    .banner2head h1 {
+        font-size: 40px;
+    }
+    .cardholder{
+        top: 13%;
+    }
+    .banner2{
+        height: 2300px;
+    }
+}

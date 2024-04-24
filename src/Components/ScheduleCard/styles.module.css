@@ -1,0 +1,91 @@
+.cardmain {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.carddetails {
+    width: 804px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.button {
+    width: 192.5px;
+    height: 23px;
+    border-radius: 20px;
+    background-color: #FFAECC;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    font-family: "Georama", sans-serif;
+    font-size: 19;
+    background-color: rgba(255, 174, 204, 0.5);
+}
+
+.carddetails h1 {
+    font-size: 60px;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    background: rgb(215, 182, 255);
+    background: linear-gradient(103deg, rgba(215, 182, 255, 1) 0%, rgba(255, 113, 165, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    text-align: start;
+    width: 80%;
+    line-height: 65px;
+}
+
+.para1 {
+    font-size: 25px;
+    font-weight: 200;
+    font-family: "Georama", sans-serif;
+    color: white;
+}
+
+.para2 {
+    color: #F42973;
+    font-size: 30px;
+    font-family: "Georama", sans-serif;
+}
+
+
+@media (max-width:769px) {
+    .cardmain img {
+        width: 80%;
+    }
+
+    .carddetails {
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        margin-left: 30px;
+    }
+
+    .carddetails h1 {
+        font-size: 30px;
+        width: 80%;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .para1,
+    .para2 {
+        font-size: 20px;
+    }
+
+    .cardmain {
+        flex-direction: column;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+}
+

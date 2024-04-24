@@ -1,0 +1,55 @@
+.navbarContainer {
+    position: fixed;
+    top: 81px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.hero1 {
+    background-image: url(/public//Images/ticketshero1.png);
+    background-size: cover;
+}
+
+.hero1img {
+    width: 100%;
+    mix-blend-mode: color;
+}
+
+.hero2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 8, 37);
+    background: linear-gradient(180deg, rgba(20, 8, 37, 1) 12%, rgba(31, 18, 49, 1) 26%);
+}
+
+.herohead {
+    margin-top: 80px;
+    font-size: 60px;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    background: rgb(215, 182, 255);
+    background: linear-gradient(103deg, rgba(215, 182, 255, 1) 0%, rgba(255, 113, 165, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    width: 60%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:426px) {
+    .hero1 {
+        margin-top: 80px;
+    }
+}
