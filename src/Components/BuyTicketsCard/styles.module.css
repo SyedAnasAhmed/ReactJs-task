@@ -1,0 +1,147 @@
+.cardwrapper {
+    width: 1220px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-image: url(/public/Images/cardbgtest.png);
+    box-shadow: 1px 9px 37px 13px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 1px 9px 37px 13px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 1px 9px 37px 13px rgba(0, 0, 0, 0.8);
+   gap: 30px;    
+}
+
+.cardHeadingandimg {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.cardHeadingandimg h1 {
+    font-size: 60px;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    background: rgb(215, 182, 255);
+    background: linear-gradient(103deg, rgba(215, 182, 255, 1) 0%, rgba(255, 113, 165, 1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.cardpara {
+    width: 90%;
+    margin: auto;
+    font-family: "Georama", sans-serif;
+    color: #FFFF;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.cardbuyopt {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    font-size: 22px;
+    color: #F42973;
+    font-family: "Georama", sans-serif;
+}
+
+.qtty {
+    margin-left: 60px;
+}
+
+.counterandprice {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    width: 45%;
+    align-items: center;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.counter {
+    width: 153px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    background-color: #4E3D63;
+    color: white;
+}
+
+.price {
+    height: 40px;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #4E3D63;
+    color: white;
+    width: 100px;
+    padding-left: 20px;
+}
+
+.counter p {
+    font-size: 30px;
+}
+
+.pricediv{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media (max-width:1025px){
+    .cardwrapper{
+        width: 768px;
+    }
+    .counterandprice{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media (max-width:426px){
+    .cardwrapper{
+        width: 425px;
+    }
+    .cardHeadingandimg h1 {
+        font-size: 40px;
+    }
+    .cardpara{
+        font-size: 18px;
+
+    }
+    .qtty{
+        margin-left: 10px;
+        /* width: 30%; */
+    }
+    .counterandprice{
+        /* width: 60%; */
+        flex-direction: column;
+        font-weight: bold;
+    }
+    .cardbuyopt{
+        font-size: 18px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .counter{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:376px){
+    .cardwrapper{
+        width:354px ;
+    }
+}

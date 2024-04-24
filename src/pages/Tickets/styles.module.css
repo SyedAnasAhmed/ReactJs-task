@@ -35,6 +35,48 @@
     color: transparent;
     width: 60%;
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.cardsec {
+    position: relative;
+}
+
+.cardholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.totaldiv {
+    background-image: url(/public//Images/cardbgtest.png);
+    width: 1222px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 120px;
+    padding-top: 20px;
+    align-items: center;
+    font-family: "Georama", sans-serif;
+    color: #F42973;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+    box-shadow: 1px 9px 37px 13px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 1px 9px 37px 13px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 1px 9px 37px 13px rgba(0, 0, 0, 0.8);
+}
+
+.price {
+    height: 40px;
+    border-radius: 40px;
+    background-color: #4E3D63;
+    color: white;
+    width: 100px;
+    padding-left: 40px;
+    padding-top: 5px;
 }
 
 
@@ -43,13 +85,46 @@
 
 
 
+@media(max-width:1025px){
+    .totaldiv{
+        width: 100%;
+    }
+}
 
 
 
-
+@media(max-width:769px) {
+    .herohead {
+        font-size: 40px;
+        width: 70%;
+        margin-top: 20px;
+    }
+}
 
 @media (max-width:426px) {
     .hero1 {
         margin-top: 80px;
+    }
+
+    .herohead {
+        font-size: 30px;
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .cardsec img {
+        height: 3800 px;
+
+    }
+    .totaldiv{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    .price{
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-bottom: 5px;
     }
 }
