@@ -18,19 +18,24 @@
 .anotherImage {
     position: absolute;
     top: 55%;
-    left: 23%;
+    left: 20%;
 }
 
+.timer{
+    position: absolute;
+    top: 70% ;
+    left: 33%;
+}
 
 .textOverlay {
     position: absolute;
     top: 58%;
-    left: 25%;
+    left: 22%;
     color: white;
     font-size: 38px;
     font-family: "Georama", sans-serif;
     font-weight: 500;
-    width: 52%;
+    width: 56%;
     height: 120px;
     -webkit-box-shadow: 0px 7px 63px 26px rgba(0, 0, 0, 0.46);
     -moz-box-shadow: 0px 7px 63px 26px rgba(0, 0, 0, 0.46);
@@ -347,6 +352,22 @@
         height: 60%;
 
     }
+    .textOverlay {
+        font-size: 30px;
+        text-align: center;
+        top: 55%;
+        /* left: 30%; */
+        left: 1%;
+        margin: auto;
+        line-height: 30px;
+        width: 100%;
+    }
+    .textOverlay2 {
+        font-size: 15px;
+        top: 68%;
+        left: 40%;
+        font-weight: 400;
+    }
 
     .backgroundContainer {
         width: 100%;
@@ -358,21 +379,7 @@
         object-fit: cover;
     }
 
-    .textOverlay {
-        font-size: 30px;
-        text-align: center;
-        top: 55%;
-        left: 5%;
-        line-height: 30px;
-        width: auto;
-    }
 
-    .textOverlay2 {
-        font-size: 15px;
-        top: 68%;
-        left: 25%;
-        font-weight: 400;
-    }
 
     .hero2 {
         height: 600px;
@@ -478,5 +485,14 @@
         gap: 50px;
         flex-direction: column;
         top: 5%;
+    }
+    .timer{
+        left: 13%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .timer{
+        left: 5%;
     }
 }

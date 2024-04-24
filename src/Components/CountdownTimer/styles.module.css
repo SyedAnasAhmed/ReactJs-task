@@ -1,0 +1,58 @@
+.timercontainer{
+    width:562px ;
+    height:118px ;
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+}
+
+.timer div {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+}
+
+.timer h3 {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+.timer p {
+    font-family: "Georama" , sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.timer span {
+    color: white    ;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:480px){
+    .timer p {
+        font-size: 15px;
+    }
+
+    .timer span {
+        font-size: medium;
+    }
+
+    .timer h3 {
+        font-size: 30px;
+    }
+
+    .timercontainer{
+        width: auto;
+        height: 50%;
+    }
+}

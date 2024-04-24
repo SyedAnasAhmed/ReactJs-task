@@ -5,6 +5,7 @@ import AttendeesCard from '../../Components/AttendeesCard';
 import Disclaimer from '../../Components/Disclaimer';
 import Footer from '../../Components/Footer';
 import MyNavbar from '../../Components/Navbar/Navbar';
+import Countdown from '../../Components/CountdownTimer';
 
 
 
@@ -23,7 +24,7 @@ function Home() {
         </div>
 
         <div className={styles.timer}>
-        
+        <Countdown/>
         </div>
 
         <div className={styles.navbarContainer}>

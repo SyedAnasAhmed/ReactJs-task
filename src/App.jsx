@@ -5,6 +5,7 @@ import Tickets from './pages/Tickets'
 import Contact from './pages/ContactUs'
 import Cast from './pages/CastAttendees'
 import { Route, Routes } from 'react-router-dom';
+// import Countdown from './Components/CountdownTimer';
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
         <Route path="/Contact" element={<Contact/>} />
         <Route path="/Cast" element={<Cast/>} />
       </Routes>
-    </>
 
+    
+
+    </>
   );
 }
 
