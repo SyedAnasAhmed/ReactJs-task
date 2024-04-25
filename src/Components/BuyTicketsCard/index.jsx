@@ -1,7 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './styles.module.css'
 
 function BuyTicketCard(props) {
+    const [prevCount, setCount] = useState(0)
+
+    const increment = () => {
+        setCount(prevCount => prevCount + 1);
+    };
+
+
+
+    const decrement = () => {
+        if(prevCount > 0){
+            setCount(prevCount => prevCount - 1);
+        }
+        else{
+            setCount(0)
+        }
+    };
+
+
     return (
         <>
             <div className={styles.cardwrapper}>
@@ -21,9 +39,9 @@ function BuyTicketCard(props) {
                     <div className={styles.counterandprice}>
                         <p>Quantity:</p>
                         <div className={styles.counter}>
-                            <img src="/Images/previous.png" alt="" />
-                            <p>0</p>
-                            <img src="/Images/next.png" alt="" />
+                            <img src="/Images/previous.png" alt="" onClick={decrement} />
+                            <p>{prevCount}</p>
+                            <img src="/Images/next.png" alt="" onClick={increment} />
                         </div>
                         <div className={styles.pricediv}>
                             <p>Price</p>
