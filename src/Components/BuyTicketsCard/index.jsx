@@ -21,9 +21,9 @@ function BuyTicketCard(props) {
                     <div className={styles.counterandprice}>
                         <p>Quantity:</p>
                         <div className={styles.counter}>
-                            <img src="/public/Images/previous.png" alt="" />
+                            <img src="/Images/previous.png" alt="" />
                             <p>0</p>
-                            <img src="/public/Images/next.png" alt="" />
+                            <img src="/Images/next.png" alt="" />
                         </div>
                         <div className={styles.pricediv}>
                             <p>Price</p>

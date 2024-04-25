@@ -14,12 +14,12 @@ function Schedule() {
 
 
       <div className={styles.bannersec} >
-        <img src="/public/Images/schduleBanner.png" className={styles.bannerimg} alt="" />
+        <img src="/Images/schduleBanner.png" className={styles.bannerimg} alt="" />
       </div>
 
 
       <div className={styles.banner2} >
-        <img src="/public/Images/schdulehero2.png" className={styles.banner2img} alt="" />
+        <img src="/Images/schdulehero2.png" className={styles.banner2img} alt="" />
 
           <div className={styles.banner2head}>
             <h1>MIAMI VICE 40TH ANNIVERSARY REUNION</h1>
@@ -28,27 +28,27 @@ function Schedule() {
 
           <div className={styles.cardholder}>
             <ScheduleCard 
-            src={"/public/Images/scheduleCard1.png"} 
+            src={"/Images/scheduleCard1.png"} 
             heading={"OPENINIG NIGHT VIP RECEPTION AT THE MIAMI VICE MUSEUM"} 
             para={"VIP Ticket holder & Invitation Only Opening Night Ceremony with Live Musical Performances, Cocktails & hors d'oeuvres catered by The Avalon Hotel's Five Star Restaurant: A Fish Called Avalon."}
              />
 
              <ScheduleCard 
-            src={"/public/Images/scheduleCard4.png"} 
+            src={"/Images/scheduleCard4.png"} 
             heading={"DAY ONE"} 
             para={"Two Seatings Ticketed Cast & Crew Dinner Experience at the Avalon Hotel's Five Star Restaurant: A Fish Called Avalon."}
             para2={"The Miami Vice Museum Opens at 11am until 5pm."}
              />
 
              <ScheduleCard 
-            src={"/public/Images/scheduleCard2.png"} 
+            src={"/Images/scheduleCard2.png"} 
             heading={"DAY TWO"} 
             para={"Two Seatings Ticketed Cast & Crew Dinner Experience at the Avalon Hotel's Five Star Restaurant: A Fish Called Avalon."}
             para2={"The Miami Vice Museum Opens at 11am until 5pm."}
              />
 
              <ScheduleCard 
-            src={"/public/Images/scheduleCard3.png"} 
+            src={"/Images/scheduleCard3.png"} 
             heading={"DAY THREE"} 
             para={"Two Seatings Ticketed Cast & Crew Dinner Experience at the Avalon Hotel's Five Star Restaurant: A Fish Called Avalon."}
             para2={"The Miami Vice Museum Opens at 11am until 5pm."}

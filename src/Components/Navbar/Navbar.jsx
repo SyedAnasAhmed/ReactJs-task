@@ -17,7 +17,7 @@ function MyNavbar() {
             <div className={`${styles.customnav} `}>
                 <ul className={`${styles.mynavlinks} `}>
                     <ul className={styles.logoholder}>
-                        <img src="/public/Images/Logo.png" width={79} height={46} alt="" />
+                        <img src="/Images/Logo.png" width={79} height={46} alt="" />
                     </ul>
 
                     <li className={`${styles.homepagelink}`}>
