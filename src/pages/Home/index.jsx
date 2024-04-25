@@ -15,8 +15,8 @@ function Home() {
 
 
       <div className={styles.backgroundContainer}>
-        <img src={"/public/Images/hero1.png"} alt="Background" className={styles.backgroundImage} />
-        <img src={"/public/Images/hero1DaysCounter.png"} alt="" className={styles.anotherImage} />
+        <img src={"/Images/hero1.png"} alt="Background" className={styles.backgroundImage} />
+        <img src={"/Images/hero1DaysCounter.png"} alt="" className={styles.anotherImage} />
 
         <div  className={styles.textholder}>
           <div className={styles.textOverlay}>MIAMI VICE 40th ANNIVERSARY</div>
@@ -34,14 +34,14 @@ function Home() {
 
 
       <div className={styles.hero2}>
-        <img src={"/public/Images/Hero2img.png"} width={1180} height={573} alt="" />
+        <img src={"/Images/Hero2img.png"} width={1180} height={573} alt="" />
         <p>Promotional Footage for the Miami Vice 40th Anniversary Reunion is Courtesy of Derek <br />
           Hedlund, Rick Bravo, The Miami Vice Preservation Society & Universal Studios LLC.</p>
       </div>
 
 
       <div className={styles.hero3}>
-        <img src={"/public/Images/hero3bg.png"} className={styles.herobgimg} height={989} alt="" />
+        <img src={"/Images/hero3bg.png"} className={styles.herobgimg} height={989} alt="" />
         <div>
           <h1 className={styles.hero3textoverlay}>1980S SOUTH BEACH</h1>
         </div>
@@ -49,7 +49,7 @@ function Home() {
           <HomeCard para1="Ocean Drive was a deteriorating stretch of hotels and co-ops used primarily as retirement homes for the elderly. 
             " para2="Crime was rampant, cocaine cowboys were shooting it out in the streets, and the drug war was raging.
             " para3="One television show changed everything and made South Beach, Miami Dade County and South Florida the ultimate paradise and travel destination that it is today for the entire world. That show was called…"
-            src="/public/Images/homecard1.png" />
+            src="/Images/homecard1.png" />
         </div>
         <div className={styles.button}>
           <button>GET TICKETS NOW</button>
@@ -64,9 +64,9 @@ function Home() {
         </div>
 
         <div className={styles.cardsection}>
-          <AttendeesCard img="/public/Images/attendee1.png" name="SAUNDRA  SANTIAGO" title="DET. GINA CALABRESE" />
-          <AttendeesCard img="/public/Images/attendee2.png" name="MICHAEL  MADSEN" title="SALY ALVARADO" />
-          <AttendeesCard img="/public/Images/attendee3.png" name="BRUCE MCGILL" title="DET. HANK WELDON RET." />
+          <AttendeesCard img="/Images/attendee1.png" name="SAUNDRA  SANTIAGO" title="DET. GINA CALABRESE" />
+          <AttendeesCard img="/Images/attendee2.png" name="MICHAEL  MADSEN" title="SALY ALVARADO" />
+          <AttendeesCard img="/Images/attendee3.png" name="BRUCE MCGILL" title="DET. HANK WELDON RET." />
         </div>
 
         <div className={styles.txtbtn}>
@@ -77,7 +77,7 @@ function Home() {
       </div>
 
       {/* <div className={styles.hero5}>
-          <img src="/public/Images/hero5bg.png" alt="" height={2221} />
+          <img src="/Images/hero5bg.png" alt="" height={2221} />
 
           <div className={styles.hero5head}>
             <h1>MIAMI VICE</h1>
@@ -85,7 +85,7 @@ function Home() {
           </div>
 
           <div className={styles.cardsdiv}>
-              <HomeCard src={"/public/Images/hero5card1.png"} className={styles.card1} para1={"SEPTEMBER 12-15 2024: Travel back in time 40 years ago to the big 80s the greatest era in American History and literally relive the most influential television show in history! "}
+              <HomeCard src={"/Images/hero5card1.png"} className={styles.card1} para1={"SEPTEMBER 12-15 2024: Travel back in time 40 years ago to the big 80s the greatest era in American History and literally relive the most influential television show in history! "}
                   para2={"Spearheaded by the world’s biggest Miami Vice fan: Derek Hedlund & original Miami Vice crew member Rick Bravo who was crucial to the success of the show from the very beginning they have come together to put on a REAL REUNION and return the original cast and guest stars whose careers began on Miami Vice back to South Beach for one final huge sendoff into the sunset the show deserves. "} />
             
           </div>
@@ -97,23 +97,23 @@ function Home() {
 
 
       <div className={styles.hero6}>
-        <img src="/public/Images/hero6overlayimg.png" className={styles.hero6mainimg} alt="" />
+        <img src="/Images/hero6overlayimg.png" className={styles.hero6mainimg} alt="" />
         <div className={styles.hero6heading}>
           <h1>PROCEEDS FROM THE MIAMI VICE REUNION WILL BENEFIT THE POLICE OFFICER ASSISTANT TRUST (POAT)</h1>
         </div>
 
         <div className={styles.hero6anniversary}>
-          <img src="/public/Images/anniversarylogo.png" alt="" />
+          <img src="/Images/anniversarylogo.png" alt="" />
           <p>The 40th Anniversary Reunion is a nonprofit event to benefit a great cause: the Police Officer Assistance Trust for the families of Fallen Miami Dade Police Officers. In the past the show & cast often did many charitable and promotional events for Miami Police Officers and the city and we'd like to keep that beautiful theme going</p>
         </div>
 
         <div className={styles.socialmediaacc} >
           <h2>FOLLOW THE OFFICIAL MIAMI VICE REUNION SOCIAL MEDIAS AT</h2>
           <div className={styles.vectors}>
-            <img src="/public/images/instavector.png" alt="" />
-            <img src="/public/Images/fbvector.png" alt="" />
-            <img src="/public/Images/tiktok.png" alt="" />
-            <img src="/public/Images/twittervector.png" alt="" />
+            <img src="/images/instavector.png" alt="" />
+            <img src="/Images/fbvector.png" alt="" />
+            <img src="/Images/tiktok.png" alt="" />
+            <img src="/Images/twittervector.png" alt="" />
           </div>
         </div>
 
@@ -123,13 +123,13 @@ function Home() {
       </div>
 
       <div className={styles.lastsec}>
-        <img src="/public/Images/sponsorsandpartners.png" alt="" />
+        <img src="/Images/sponsorsandpartners.png" alt="" />
 
         <div className={styles.logos} >
-          <img src="/public/Images/logolarge.png" alt="" />
-          <img src="/public/Images/logolarge.png" alt="" />
-          <img src="/public/Images/logolarge.png" alt="" />
-          <img src="/public/Images/logolarge.png" alt="" />
+          <img src="/Images/logolarge.png" alt="" />
+          <img src="/Images/logolarge.png" alt="" />
+          <img src="/Images/logolarge.png" alt="" />
+          <img src="/Images/logolarge.png" alt="" />
         </div>
       </div>
 

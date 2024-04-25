@@ -247,7 +247,7 @@
 
 
 .hero6 {
-    background-image: url(/public/Images/hero6bgimg.png);
+    background-image: url(/Images/hero6bgimg.png);
     display: flex;
     flex-direction: column;
     align-items: center;
