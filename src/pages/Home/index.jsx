@@ -110,7 +110,7 @@ function Home() {
         <div className={styles.socialmediaacc} >
           <h2>FOLLOW THE OFFICIAL MIAMI VICE REUNION SOCIAL MEDIAS AT</h2>
           <div className={styles.vectors}>
-            <img src="/images/instavector.png" alt="" />
+            <img src="/Images/instavector.png" alt="" />
             <img src="/Images/fbvector.png" alt="" />
             <img src="/Images/tiktok.png" alt="" />
             <img src="/Images/twittervector.png" alt="" />
